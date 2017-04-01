@@ -190,6 +190,12 @@
     }];
 }
 
+- (UIImage*)bundleImage:(NSString*)imageName {
+    NSString *bundlePath = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"HGActionSheet.bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    return [UIImage imageWithContentsOfFile:[bundle pathForResource:imageName ofType:@"png"]];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -213,7 +219,7 @@
     
     cell.textLabel.text = _dataArr[indexPath.row];
     UIImageView *arrow = [cell.contentView viewWithTag:1001];
-    arrow.image = _selectIndex == indexPath.row ? [UIImage imageNamed:@"ico_make"] : nil;
+    arrow.image = _selectIndex == indexPath.row ? [self bundleImage:@"arrow"] : nil;
     
     return cell;
 }
