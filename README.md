@@ -1,8 +1,8 @@
 # HGActionSheet
 弹出菜单<br>
-<img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image1.png" width=35% heithg=35% />
-<img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png" width=35% heithg=35% />
-<img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image3.png" width=35% heithg=35% />
+<img src="https://github.com/xuhonggui/HGActionSheet/raw/master/Image/image1.png" width=35% heithg=35% />
+<img src="https://github.com/xuhonggui/HGActionSheet/raw/master/Image/image2.png" width=35% heithg=35% />
+<img src="https://github.com/xuhonggui/HGActionSheet/raw/master/Image/image3.png" width=35% heithg=35% />
 # How to Use
 ### 使用CocoaPods<br>
 ```
