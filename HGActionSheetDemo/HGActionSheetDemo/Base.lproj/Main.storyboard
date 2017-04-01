@@ -89,7 +89,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="EKX-tY-GlK" secondAttribute="trailing" id="025-kb-AD0"/>
                             <constraint firstAttribute="trailing" secondItem="eq8-CW-eCH" secondAttribute="trailing" id="4uH-Dz-6Qv"/>
@@ -121,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-298.39999999999998" y="72.413793103448285"/>
+            <point key="canvasLocation" x="-489" y="72"/>
         </scene>
     </scenes>
     <resources>

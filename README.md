@@ -15,7 +15,6 @@ pod 'HGActionSheet'
 ```
 NSArray *dataArray = @[@"空调维修", @"洗衣机维修", @"电视维修", @"电脑维修", @"热水器维修", @"抽油烟机维修", @"厕所疏通", @"房屋补漏", @"房屋翻新", @"其它"];
 HGActionSheet *actionSheet = [HGActionSheet createWithTitle:@"服务类型" dataSource:dataArray];
-
 ```
 设置选中的行:<br>
 ```
