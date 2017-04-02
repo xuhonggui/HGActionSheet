@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1825217B1E90B7E300B515BD /* HGActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 182521781E90B7E300B515BD /* HGActionSheet.bundle */; };
+		1825217C1E90B7E300B515BD /* HGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825217A1E90B7E300B515BD /* HGActionSheet.m */; };
 		7B0A70C81E8F543600D1F383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A70C71E8F543600D1F383 /* main.m */; };
 		7B0A70CB1E8F543600D1F383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A70CA1E8F543600D1F383 /* AppDelegate.m */; };
 		7B0A70CE1E8F543600D1F383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A70CD1E8F543600D1F383 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182521781E90B7E300B515BD /* HGActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HGActionSheet.bundle; sourceTree = "<group>"; };
+		182521791E90B7E300B515BD /* HGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGActionSheet.h; sourceTree = "<group>"; };
+		1825217A1E90B7E300B515BD /* HGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGActionSheet.m; sourceTree = "<group>"; };
 		7B0A70C31E8F543600D1F383 /* HGActionSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGActionSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0A70C71E8F543600D1F383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B0A70C91E8F543600D1F383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182521771E90B7E300B515BD /* HGActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				182521781E90B7E300B515BD /* HGActionSheet.bundle */,
+				182521791E90B7E300B515BD /* HGActionSheet.h */,
+				1825217A1E90B7E300B515BD /* HGActionSheet.m */,
+			);
+			path = HGActionSheet;
+			sourceTree = "<group>";
+		};
 		7B0A70BA1E8F543600D1F383 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +73,7 @@
 		7B0A70C51E8F543600D1F383 /* HGActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				182521771E90B7E300B515BD /* HGActionSheet */,
 				7B0A70C91E8F543600D1F383 /* AppDelegate.h */,
 				7B0A70CA1E8F543600D1F383 /* AppDelegate.m */,
 				7B0A70CC1E8F543600D1F383 /* ViewController.h */,
@@ -139,6 +155,7 @@
 			files = (
 				7B0A70D61E8F543600D1F383 /* LaunchScreen.storyboard in Resources */,
 				7B0A70D31E8F543600D1F383 /* Assets.xcassets in Resources */,
+				1825217B1E90B7E300B515BD /* HGActionSheet.bundle in Resources */,
 				7B0A70D11E8F543600D1F383 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1825217C1E90B7E300B515BD /* HGActionSheet.m in Sources */,
 				7B0A70CE1E8F543600D1F383 /* ViewController.m in Sources */,
 				7B0A70CB1E8F543600D1F383 /* AppDelegate.m in Sources */,
 				7B0A70C81E8F543600D1F383 /* main.m in Sources */,
