@@ -13,12 +13,6 @@
 		7B0A70D11E8F543600D1F383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70CF1E8F543600D1F383 /* Main.storyboard */; };
 		7B0A70D31E8F543600D1F383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70D21E8F543600D1F383 /* Assets.xcassets */; };
 		7B0A70D61E8F543600D1F383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70D41E8F543600D1F383 /* LaunchScreen.storyboard */; };
-		7B0A70E51E8F54AC00D1F383 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70DE1E8F54AC00D1F383 /* .gitignore */; };
-		7B0A70E61E8F54AC00D1F383 /* HGActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70DF1E8F54AC00D1F383 /* HGActionSheet.bundle */; };
-		7B0A70E71E8F54AC00D1F383 /* HGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A70E11E8F54AC00D1F383 /* HGActionSheet.m */; };
-		7B0A70E81E8F54AC00D1F383 /* HGActionSheet.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70E21E8F54AC00D1F383 /* HGActionSheet.podspec */; };
-		7B0A70E91E8F54AC00D1F383 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A70E31E8F54AC00D1F383 /* LICENSE */; };
-		7B0A70EA1E8F54AC00D1F383 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A70E41E8F54AC00D1F383 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +26,6 @@
 		7B0A70D21E8F543600D1F383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B0A70D51E8F543600D1F383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B0A70D71E8F543600D1F383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B0A70DE1E8F54AC00D1F383 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		7B0A70DF1E8F54AC00D1F383 /* HGActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HGActionSheet.bundle; sourceTree = "<group>"; };
-		7B0A70E01E8F54AC00D1F383 /* HGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGActionSheet.h; sourceTree = "<group>"; };
-		7B0A70E11E8F54AC00D1F383 /* HGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGActionSheet.m; sourceTree = "<group>"; };
-		7B0A70E21E8F54AC00D1F383 /* HGActionSheet.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HGActionSheet.podspec; sourceTree = "<group>"; };
-		7B0A70E31E8F54AC00D1F383 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7B0A70E41E8F54AC00D1F383 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +58,6 @@
 		7B0A70C51E8F543600D1F383 /* HGActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7B0A70DD1E8F54AC00D1F383 /* HGActionSheet */,
 				7B0A70C91E8F543600D1F383 /* AppDelegate.h */,
 				7B0A70CA1E8F543600D1F383 /* AppDelegate.m */,
 				7B0A70CC1E8F543600D1F383 /* ViewController.h */,
@@ -91,20 +77,6 @@
 				7B0A70C71E8F543600D1F383 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7B0A70DD1E8F54AC00D1F383 /* HGActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				7B0A70DE1E8F54AC00D1F383 /* .gitignore */,
-				7B0A70DF1E8F54AC00D1F383 /* HGActionSheet.bundle */,
-				7B0A70E01E8F54AC00D1F383 /* HGActionSheet.h */,
-				7B0A70E11E8F54AC00D1F383 /* HGActionSheet.m */,
-				7B0A70E21E8F54AC00D1F383 /* HGActionSheet.podspec */,
-				7B0A70E31E8F54AC00D1F383 /* LICENSE */,
-				7B0A70E41E8F54AC00D1F383 /* README.md */,
-			);
-			path = HGActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,13 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0A70E51E8F54AC00D1F383 /* .gitignore in Resources */,
 				7B0A70D61E8F543600D1F383 /* LaunchScreen.storyboard in Resources */,
 				7B0A70D31E8F543600D1F383 /* Assets.xcassets in Resources */,
-				7B0A70E91E8F54AC00D1F383 /* LICENSE in Resources */,
-				7B0A70E61E8F54AC00D1F383 /* HGActionSheet.bundle in Resources */,
 				7B0A70D11E8F543600D1F383 /* Main.storyboard in Resources */,
-				7B0A70E81E8F54AC00D1F383 /* HGActionSheet.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0A70E71E8F54AC00D1F383 /* HGActionSheet.m in Sources */,
 				7B0A70CE1E8F543600D1F383 /* ViewController.m in Sources */,
-				7B0A70EA1E8F54AC00D1F383 /* README.md in Sources */,
 				7B0A70CB1E8F543600D1F383 /* AppDelegate.m in Sources */,
 				7B0A70C81E8F543600D1F383 /* main.m in Sources */,
 			);
@@ -253,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -308,6 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HGActionSheetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuhonggui.HGActionSheetDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HGActionSheetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuhonggui.HGActionSheetDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,6 +315,7 @@
 				7B0A70DC1E8F543600D1F383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
