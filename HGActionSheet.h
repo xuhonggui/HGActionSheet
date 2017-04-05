@@ -1,10 +1,9 @@
-//
-//  HGActionSheet.h
-//  BobBuilder
-//
-//  Created by 许鸿桂 on 2017/3/31.
-//  Copyright © 2017年 dlc. All rights reserved.
-//
+/*
+ The MIT License (MIT)
+ 
+ Copyright (c) 2017, xuhonggui.
+ All rights reserved.
+ */
 
 #import <UIKit/UIKit.h>
 
